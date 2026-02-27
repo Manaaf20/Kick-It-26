@@ -1,0 +1,1 @@
+#ifndef SCOREBOARD_H\n#define SCOREBOARD_H\n\n// Initializes the scoreboard\nvoid initialize_scoreboard();\n\n// Function to update the score of a player\nvoid update_score(int player_id, int score);\n\n// Function to retrieve the score of a player\nint get_score(int player_id);\n\n// Function to reset the scoreboard\nvoid reset_scoreboard();\n\n#endif // SCOREBOARD_H
